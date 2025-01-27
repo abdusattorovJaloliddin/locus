@@ -1,0 +1,121 @@
+.footer__container{
+    margin: 240px auto;
+    display: flex;
+    justify-content: space-between;
+}
+hr{
+    margin: 10px 0;
+}
+.footer__title{
+    font-family: Poppins;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 105px;
+    text-align: center;
+    width: 398px;
+    // height: 105px;
+    color: #1C2323;        
+}
+.footer__text{
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 37.5px;
+    text-align: left;
+    width: 398px;
+    height: 76px;
+    color: #486958;        
+}
+.footer__boxs{
+    border: 2px solid #486958;
+    border-radius: 5px;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+input{
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 37.5px;
+    text-align: left;
+    color: #486958;  
+    width: 600px;  
+    height: 60px; 
+    padding: 20px 10px;  
+    margin: 10px auto; 
+    border: none;
+    border-bottom: 1px solid  #486958;;
+    outline: none;
+}
+.footer__button{
+    width: 200px;
+    padding: 15px 2px;
+    border-radius: 15px;
+    background-color: #58A9A5;  
+    border: none;  
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 37.5px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 20px 20px 20px 0;
+    margin-top: 25px;
+    margin-left: 420px;
+}
+.footer__button:hover{
+     color:  #404242;
+     background-color: rgb(233, 219, 219);
+}
+@media (max-width:1100px){
+    .footer__title{
+        font-size: 60px;
+        width: 398px; 
+        margin: 10px 0;
+    }
+    .footer__text{
+        font-size: 22px;
+        width: 398px;       
+    }
+    .footer__boxs{
+        width: 650px;
+        height: 350px;
+    }
+    input{
+        width: 550px;  
+        height: 50px; 
+    }
+    .footer__button{
+        width: 150px;
+        padding: 10px 2px;
+    }
+}
+@media (max-width:1000px){
+    .footer__title{
+        font-size: 50px;
+        // width: 398px; 
+        // margin: 10px 0;
+    }
+    .footer__text{
+        font-size: 20px;
+        width: 350px;       
+    }
+    .footer__boxs{
+        width: 600px;
+        height: 300px;
+    }
+    input{
+        width: 530px;  
+        height: 45px; 
+    }
+    .footer__button{
+        width: 130px;
+        padding: 7px 2px;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+}

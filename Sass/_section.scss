@@ -1,0 +1,108 @@
+.section__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section__title{
+    font-family: Poppins;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 105px;
+    text-align: center;
+    width: 435px;
+    // height: 105px;
+    color: #1C2323; 
+}
+.section__logo{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    gap: 90px;
+    margin-top: 96px; 
+}
+.section__img{
+    max-width: 200px;
+}
+.section__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section__items{
+     width: 670px;
+     height: 600px;
+     background-color: #CCF0E6;   
+     padding: 70px 25px;  
+}
+.section__pic{
+    width: 550px;
+    height: 600px;    
+}
+.section__boxs{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+    gap: 30px;
+}
+.section__text{
+    font-family: Poppins;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 30px;
+    text-align: left;
+    color: #58A9A5;
+    width: 140px;
+    height: 179px;       
+}
+.section__span{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+    text-align: left;  
+}
+.section__block{
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 37.5px;
+    text-align: left;
+    width: 600px;
+    height: 200px;
+    color: #486958;        
+}
+.section__box__footer{
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 37.5px;
+    text-align: left;   
+    color: #486958;   
+}
+.section__in{
+    width: 90%;
+    margin: 50px auto;
+}
+@media (max-width:1100px){
+    .section__ims{
+        max-width: 150px;
+    }
+    .section__pic{
+        width: 420px;
+        height: 600px;    
+    }
+    .section__title{
+        margin-top: 50px;
+    }
+}
+@media (max-width:1000px){
+    .section__logo{
+        gap: 60px;
+    }
+    .section__pic{
+        width: 320px;
+        height: 600px;    
+    }
+}
